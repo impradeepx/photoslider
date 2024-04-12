@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slider-container {
+    max-width: 600px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
